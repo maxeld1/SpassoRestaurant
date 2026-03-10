@@ -228,7 +228,7 @@ main,
   min-height: calc(100vh - 88px);
   display: flex;
   align-items: center;
-  padding-top: 28px;
+  padding-top: 18px;
 }
 
 .hero-grid {
@@ -263,9 +263,9 @@ main,
 }
 
 .hero-intro {
-  padding: 26px;
+  padding: 22px 22px 18px;
   align-self: center;
-  padding-left: 34px;
+  padding-left: 30px;
 }
 
 .hero-primary,
@@ -291,20 +291,20 @@ main,
 }
 
 .hero-primary {
-  height: min(58vh, 520px);
+  height: min(52vh, 470px);
 }
 
 .hero-secondary {
-  height: min(24vh, 200px);
+  height: min(20vh, 160px);
 }
 
 .hero-rail {
   display: grid;
-  gap: 28px;
+  gap: 18px;
 }
 
 .hero-note {
-  padding: 24px;
+  padding: 18px 20px;
 }
 
 .rail-copy {
@@ -342,7 +342,7 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(3rem, 5.4vw, 5.2rem);
+  font-size: clamp(2.6rem, 4.8vw, 4.4rem);
   max-width: 10.5ch;
 }
 
@@ -372,13 +372,14 @@ p {
 }
 
 .hero-text {
-  max-width: 34rem;
-  margin-top: 18px;
-  font-size: 16px;
+  max-width: 30rem;
+  margin-top: 14px;
+  font-size: 15px;
 }
 
 .hero-actions {
-  margin-top: 22px;
+  margin-top: 16px;
+  gap: 12px;
 }
 
 .intro-band,
@@ -427,6 +428,10 @@ p {
 .intro-grid h2,
 .menus-copy,
 .visit-copy h2 {
+  padding-left: 18px;
+}
+
+.intro-band > .eyebrow {
   padding-left: 18px;
 }
 
@@ -855,6 +860,7 @@ p {
   .specials-header,
   .events-heading,
   .intro-grid h2,
+  .intro-band > .eyebrow,
   .menus-copy,
   .visit-copy h2 {
     padding-left: 24px;
